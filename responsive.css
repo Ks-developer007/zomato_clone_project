@@ -1,0 +1,118 @@
+
+@media only screen and (max-width:1000px){
+    .hero_section{
+        min-height: 80vh;
+
+    }
+
+    .app_link{
+        display: none;
+
+
+    }
+    .log_in{
+        display: none;
+
+    }
+
+
+    .hero__section_input_container{
+        flex-direction: column;
+        width: 100%;
+        background:transparent;
+        gap: 35px;
+
+
+
+    }
+    .hero__section_container h1{
+        font-size: 20px;
+    }
+    .location_me, .search_section{
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 10px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin: none;
+        margin: -6px;  
+
+
+
+    }
+    .title{
+        margin: auto;
+    }
+    .areas{
+        min-height: 35rem;
+    }
+    .footer__section_container{
+        
+    }
+    /* .footer__main{
+        flex-direction: column;
+    } */
+
+
+
+
+
+
+    .about__zomato{
+
+    }
+    .about__nav{
+
+
+    }
+}
+@media only screen and (max-width: 500px){
+    .hero__section_container h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero__section_container{
+        height: 90vh;
+    }
+    .hero_section{
+        min-height: 90vh;
+    }
+
+    .collce__para a .right__arrow{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .title{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    }
+    .areas{
+        min-height: 42rem;
+        gap: 0;
+    }
+
+    
+    
+}
+@media only screen and (max-width:900px) {
+    .footer__main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:600px) {
+    .footer__main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:300px) {
+    .footer__main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
